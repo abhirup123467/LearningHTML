@@ -14,5 +14,34 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
 
-
+}
+#lottie
+{
+    height:400px;
+    margin-top: 100px;
+}
+h1{
+    
+}
+#wer1
+{
+    font-family: 'Teko', sans-serif;
+    margin-top:120px;
+    color: blue;
+    font-size: 50px;
+}
+#wer2
+{
+    font-family: 'Teko', sans-serif;
+    margin-top:120px;
+    color:green;
+}
+#wer{
+    font-family: 'Teko', sans-serif;
+    margin-top:10px;
+    font-size:30px;
+    text-align: justify;
+}
+button{
+    width: 100px;
 }
