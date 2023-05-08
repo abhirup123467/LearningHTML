@@ -39,16 +39,20 @@ button{
     #homepage
     {
         height: 240vh;
+    
     }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  
+}
 
 #about
 {
     background-color: #fcba03;
-    height: 100vh;
+    height: auto;
 }
 #aboutheading
 {
@@ -63,4 +67,253 @@ button{
     text-align: justify;
     font-size: 30px;
 
+}
+#gallery
+{
+    background-color:#ffe4c4;
+    height:100vh;
+}
+#gall_heading
+{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
+#galimg
+{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#galimg1
+{
+    height: 250px;
+}
+
+@media only screen and (min-width: 992px) {
+    #galimg
+    {
+        
+       background-color:red
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    #galimg
+    {
+        
+       background-color:red
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #galimg
+    {
+        
+       background-color:red
+    }
+
+}
+#imgsvg
+{
+    height: 300px;
+}
+#form
+{
+    width:20px;
+}
+
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: #fff;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .fas:hover {
+    background: #f12020;
+}
+
+.center .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 15px 0;
+}
+
+.right form .text {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input,
+.right form .msgForm {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+.right form input:focus,
+.right form .msgForm:focus {
+    outline-color: #3498db;
+}
+
+.right form input {
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 45px;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right form .btn button:hover {}
+
+.bottom {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom {
+    color: #656565;
+}
+
+.bottom {
+    color: #f12020;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        position: relative;
+        bottom: 0px;
+    }
+    .main-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box {
+        margin: 5px 0;
+    }
+}
+
+#sio {
+    background: #1a1a1a;
+    height: 4vh;
+}
+
+#opr {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#iope {
+    font-family: 'Staatliches', cursive;
+    color: red;
 }
